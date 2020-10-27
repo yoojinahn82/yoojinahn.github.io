@@ -1,0 +1,96 @@
+#firstDiv {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/marry.jpg');
+    background-size: contain;
+}
+
+#secondDiv {
+    widows: 100%;
+    ;
+    height: 300px;
+    background-image: url('../images/moon.jpg');
+    background-size: cover;
+}
+
+#thirdDiv {
+    widows: 100%;
+    height: 300px;
+    background: url('../images/rainbow.jpg');
+}
+
+#fourthDiv {
+    widows: 100%;
+    height: 300px;
+    background-image: url('../images/tree.jpg');
+}
+
+
+
+span {
+    color: pink;
+    background-color: white;
+    font-size: 40px;
+
+}
+
+#secondDiv span {
+    color: pink;
+    background-color: white;
+    font-size: 40px;
+
+}
+
+#fourthDiv h1 {
+    color: white;
+    background-color: coral;
+    font-size: 40px;
+
+}
+
+#sideBar {
+    height: 200px;
+    background-color: lightgray;
+    float: left;
+    width: 20%;
+}
+
+#mainContent {
+    height: 200px;
+    background-color: lightblue;
+}
+
+#leftBox {
+    background-color: darkgray;
+    float: left;
+    height: 300px;
+}
+
+#middleBox {
+    background-color: gray;
+    float: left;
+    height: 300px;
+}
+
+#rightBox {
+    background-color: cyan;
+    height: 300px;
+}
+
+#leftBox,
+#middleBox,
+#rightBox {
+    padding: 20px;
+    color: white;
+}
+
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: green;
+    text-align: center;
+    height: 50px;
+}

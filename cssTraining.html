@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html>
-
 
-<head>
+<head></head>
 
-<body data-new-gr-c-s-check-loaded="14.981.0">
+<body>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>css training</title>
     <link rel="stylesheet" type="text/css" href="assets/css/cssTraining.css">
+    
+     <!-- local/custom stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"></head>
+     <!-- BS navigation bar-->
+
+      <nav class="navbar navbar-expand-lg navbar-light customNav">
+          <a class="navbar-brand" href="index.html">LOGO</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Projects <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="cssTraining.html">CSS Training</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="boostrapExercise.html">Bootstrap Exercise</a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="resume.html">Resume</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+</body>
 
     <div id="firstDiv">
-        <span><a href="index.html">theme park</a></span>
+        <span><a class="vistedLink" href="index.html">theme park</a></span>
     </div>
 
     <div id="secondDiv">
@@ -46,19 +75,20 @@
         </div>
         <div id="mainContent">
             <h1>Hello</h1>
-            <p>this is our main content</p>
+            <p class="pinkText">this is our main content</p>
         </div>
     </section>
+
 
     <section>
         <div id="leftBox">
             <img width="200" height="200" src="assets/images/moon.jpg">
-            <h1>Image 1</h1>
-            <p>this is left image</p>
+            <h2>Pink Cloud</h1>
+            <p class="pinkText underline textHoverStyle">this is left image</p>
         </div>
         <div id="middleBox">
             <img width="200" height="200" src="assets/images/rainbow.jpg">
-            <h1>Image 1</h1>
+            <h1>Rainbow</h1>
             <p>this is middle image</p>
         </div>
         <div id="rightBox">
@@ -66,8 +96,26 @@
         </div>
     </section>
 
+<div class="flexContainer">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <h1>hello</h1>
+</div>
+ <a class="stateStyling" href="https://yoojinahn82.github.io/yoojinahn.github.io" target="_blank">
+        Click here to go my github account
+    </a>
     <div id="footer">
         <p>this is footer</p>
     </div>
+   
+<!-- boostrap script -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</body>
+</html>
 
     

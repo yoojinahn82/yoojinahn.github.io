@@ -1,0 +1,63 @@
+.myResume {
+    background-color:rgb(229,205,200);
+    padding: 20px 50px!important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(68,72,102);
+}
+
+
+
+. .mainHeaderTech {
+    background-color: rgb(68,72,102);
+    font-family: verdana, 'open sans', sans-serif;
+    margin-bottom: -10px;
+    padding: 20px 20px 20px 60px;
+    position: relative;
+    margin-left: -15px;
+    color: rgb(248, 230, 222);
+    font-size: 10px;
+    width: 200px;
+}
+
+    
+.myResume .intro
+
+    .myResume .softskillRow {
+        background-color: rgb(248, 230, 222);
+        margin-bottom: 0;
+        justify-content: flex-end;
+        display: flex;
+        padding: 10px 14px 10px 44px;
+        padding-top: 44px;
+    }
+    
+
+    .myResume .technicalRow {
+        background-color: rgb(248, 230, 222);
+        margin-bottom: 0;
+        justify-content: flex-end;
+        display: flex;
+        padding: 10px 14px 10px 44px;
+        padding-top: 44px;
+    }
+
+    .myResume .languageRow {
+        background-color: rgb(248, 230, 222);
+        margin-bottom: 0;
+        justify-content: flex-end;
+        display: flex;
+        padding: 10px 14px 10px 44px;
+        padding-top: 44px;
+    }
+
+   .myResume .technicalRow {
+        background-color: rgb(248, 230, 222);
+        margin-bottom: 0;
+        justify-content: flex-end;
+        display: flex;
+        padding: 10px 14px 10px 44px;
+        padding-top: 44px;
+
+    }
+    

@@ -1,0 +1,148 @@
+
+
+/* bear bento */
+
+.container-fluid.bearBentoBox {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bearBentoBox p:first-child {
+    background: limegreen;
+    color: white
+}
+
+.bearBentoBox .col-md-8 p {
+    background: lightsalmon;
+    color: white
+}
+
+.saladRow {
+    background-color: darkolivegreen;
+    padding: 30px
+}
+.saladRow p {
+ padding: 5px;
+ color: blue!important;
+}
+
+.regBentox {
+    margin-top: 20px;
+}
+
+/* regular bento */
+
+.regBentox > .mainDish{
+    background-color: darkturquoise;
+    height: 300px;
+    align-items: center;
+}
+
+.regBentox > .mainDish div:first-child p {
+    background-color: yellow;
+    text-align: center;
+}
+
+.regBentox > .mainDish div:last-child p {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.regBentox .deseartRow {
+    background-color: palevioletred;
+    align-items: center;
+    height: 200px;
+}
+
+.regBentox .deseartRow  p {
+    background-color: powderblue;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    display: flex;
+}
+
+/* bootstrap vertical alignment */
+.gridExercise {
+    background-color:lightseagreen;
+    margin: 30px 0;
+}
+
+.parentTarget {
+    height: 200px;
+    background-color: lightgrey;
+    margin: 10px 0;
+}
+
+.parentTarget div {
+    height: 50px;
+    background-color: lightblue;
+    border: 1px solid black;
+    /* border-width: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+
+.gridExercise .height100 {
+    height: 100px;
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.height100 div {
+    height: 50px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+/* build out div exercise */
+.divExercise .customRow {
+    height: 300px;
+    align-items: center;
+}
+
+
+.divExercise .customRow:first-child {
+    background-color: lightpink;
+}
+
+.divExercise .customRow:nth-child(2) {
+    background-color: lightgreen;
+}
+
+/* .firstRow {
+    background-color: lightpink;
+}
+
+.secondRow {
+    background-color: lightgreen; 
+} */
+
+/* .firstRow div {
+    height: 100px;
+}
+
+.secondRow div {
+    height: 100px;
+} */
+
+.customRow div{
+    height: 100px;
+}
+
+.customRow div:first-child {
+    background-color: blue;
+}
+
+.customRow div:nth-child(2) {
+    background-color: red;
+}
+
+.customRow div:nth-child(3) {
+    background-color: violet;
+}
+
+.customRow div:last-child {
+    background-color: green;
+}

@@ -1,0 +1,21 @@
+.customNav {
+    background-color: lightgreen;
+}
+
+.customNav li.nav-item.active {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.customNav li.nav-item.active a {
+    color: white!important;
+}
+
+.customNav li.nav-item.active a:hover{
+    color: red!important;
+}
+
+.customNav li.nav-item a:hover {
+    color:yellow;
+}

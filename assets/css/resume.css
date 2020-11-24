@@ -1,5 +1,5 @@
 .myResume {
-    background-color:rgb(229,205,200);
+    background-color: lightcoral;
     padding: 20px 50px!important;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -78,4 +78,15 @@
     
     .myResume .progressRow div.progress > div.progress-bar {
         background-color: #EAB5B3;
+    }
+
+    /* Media Queries */
+    @media (max-width:768px) {
+    .myResume {
+        border-width: 0px;
+    }
+    .techSkill i.fa-circle {
+        letter-spacing: opx;
+    }
+
     }

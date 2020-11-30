@@ -1,65 +1,159 @@
+
 .myResume {
-    background-color: lightcoral;
+    background-color: #E5CDC8;
     padding: 20px 50px!important;
     margin-top: 50px;
     margin-bottom: 50px;
     color: rgb(68,72,102);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16pt;
 }
 
+
+.introHeader {
+    background-color: rgb(68,72,102);
+    height: 150px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    padding: 30px 20px 20px 60px;
+    position: relative;
+    display: flex;
+    margin-left: -15px;
+    color: rgb(248, 230, 222);
+    font-size: 30px;
+    width: 300px;
+}
+
+.myResume .contact {
+    background-color: rgb(248, 230, 222);
+    margin-top: 40px;
+    margin-left: -10px;
+    justify-content: flex-end;
+    display: flex;
+    padding: 10px 14px 20px 44px;
+    padding-top: 44px;
+    padding-right: 80px;
+    border-radius: 25px;
+    width: 500px;
+}
 
 
 .mainHeaderTech {
     background-color: rgb(68,72,102);
-    font-family: verdana, 'open sans', sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
     margin-bottom: -10px;
-    padding: 20px 20px 20px 60px;
+    padding: 10px 14px 20px 44px;
     position: relative;
+    display: flex;
     margin-left: -15px;
     color: rgb(248, 230, 222);
-    font-size: 30px;
-    width: 200px;
+    font-size: 35px;
+    width: 500px;
+}
+.myResume .technicalRow {
+    background-color: rgb(248, 230, 222);
+    margin-bottom: 0;
+    justify-content: flex-end;
+    display: flex;
+    padding: 0px 14px 10px 20px;
+    padding-top: 44px;
+    padding-bottom: 0px;
+    border-radius: 25px;
+    width: 500px;
+}
+
+
+
+.technicalRow .col-md-4 {
+    padding-left: 0px
+    
+}
+
+
+.mainHeadersoftTech {
+    background-color: rgb(68,72,102);
+    font-size: 40px;
+    margin-bottom: -10px;
+    padding: 10px 14px 20px 44px;
+    position: relative;
+    display: flex;
+    margin-left: -15px;
+    color: rgb(248, 230, 222);
+    font-size: 35px;
+    width: 500px;
+}
+
+
+     .myResume .softskillRow {
+        background-color: rgb(248, 230, 222);
+        margin-bottom: 0;
+        justify-content: flex-end;
+        display: flex;
+        padding: 10px 14px 10px 44px;
+        padding-top: 44px;
+        border-radius: 25px;
+    }
+    
+     .progressBar  .progrss{
+        padding: 10px 14px 10px 44px;
+
+     }
+
+
+     .mainheaderLang {
+        background-color: rgb(68,72,102);
+        font-size: 40px;
+        margin-top: 0
+        margin-bottom: -10px;
+        padding: 10px 14px 20px 44px;
+        position: relative;
+        display: flex;
+        margin-left: -15px;
+        color: rgb(248, 230, 222);
+        font-size: 35px;
+        width: 500px;
+    }
+
+   .languageSkill .langSkill {
+    background-color: rgb(248, 230, 222);
+    margin-top: 40px;
+    margin-left: -10px;
+    justify-content: flex-end;
+    display: flex;
+    padding: 10px 14px 20px 44px;
+    padding-top: 44px;
+    padding-right: 80px;
+    border-radius: 25px;
+    height: 300px;
+    width: 500px;
 }
 
     
-.myResume .intro
-
-    .myResume .softskillRow {
-        background-color: rgb(248, 230, 222);
-        margin-bottom: 0;
-        justify-content: flex-end;
+  
+    .myResume .mainheaderEdu {
+        background-color: rgb(68,72,102);
+        font-size: 40px;
+        margin-bottom: -10px;
+        padding: 10px 14px 20px 44px;
+        position: relative;
         display: flex;
-        padding: 10px 14px 10px 44px;
-        padding-top: 44px;
+        margin-left: -15px;
+        color: rgb(248, 230, 222);
+        font-size: 35px;
+        width: 500px;
     }
     
-
-    .myResume .technicalRow {
+  .educationRow {
         background-color: rgb(248, 230, 222);
         margin-bottom: 0;
         justify-content: flex-end;
         display: flex;
         padding: 10px 14px 10px 44px;
         padding-top: 44px;
-    }
-
-    .myResume .languageRow {
-        background-color: rgb(248, 230, 222);
-        margin-bottom: 0;
-        justify-content: flex-end;
-        display: flex;
-        padding: 10px 14px 10px 44px;
-        padding-top: 44px;
-    }
-
-   .myResume .technicalRow {
-        background-color: rgb(248, 230, 222);
-        margin-bottom: 0;
-        justify-content: flex-end;
-        display: flex;
-        padding: 10px 14px 10px 44px;
-        padding-top: 44px;
-
-
+        border-radius: 25px;
     }
     
 
@@ -89,4 +183,3 @@
         letter-spacing: opx;
     }
 
-    }

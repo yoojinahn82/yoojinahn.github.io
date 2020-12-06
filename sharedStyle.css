@@ -1,21 +1,57 @@
-.customNav {
-    background-color: lightgreen;
+
+.customNav > a.navbar-brand > img {
+    height: 150px;
+    width: auto;
 }
 
-.customNav li.nav-item.active {
-    color: white;
-    font-size: 20px;
+.customNav button:focus {
+    outline: none;
+}
+
+.customNav button.navbar-toggler span > i {
+    color: orange;
+    font-size: 30px;
+}
+
+.customNav ul.navbar-nav li.nav-item {
+    margin-left: 100px;
+}
+
+.customNav ul.navbar-nav li.nav-item > a {
+    color: gray
+}
+
+.customNav ul.navbar-nav li.nav-item.active > a {
+    color: orange;
+    font-weight: bold;
     text-decoration: underline;
 }
 
-.customNav li.nav-item.active a {
-    color: white!important;
+.customNav ul.navbar-nav li.nav-item > a:hover {
+    color: #34af95;
+    text-decoration: underline;
+    font-weight: bold;
+    transform: scale(1.2);
 }
 
-.customNav li.nav-item.active a:hover{
-    color: red!important;
+.customNav {
+    justify-content: space-between;
 }
 
-.customNav li.nav-item a:hover {
-    color:yellow;
+/* media queries */
+@media (max-width: 576px) {
+    .customNav > a.navbar-brand > img {
+        height: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .customNav ul.navbar-nav li.nav-item {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .customNav ul.navbar-nav li.nav-item > a:hover {
+        transform: scale(1)
+    }
 }

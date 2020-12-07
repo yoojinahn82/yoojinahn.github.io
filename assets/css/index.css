@@ -5,10 +5,10 @@
 }
 
 .projectGalleryContainer {
-    margin: 20px 0 ;
+    margin: 20px 0;
 }
 
-.sectionTitle  {
+.sectionTitle {
     font-weight: bold;
     font-family: impact;
     border-bottom: 6px double;
@@ -35,23 +35,30 @@ body {
     border: 1px solid #A6907C;
     border-radius: .25rem;
 }
+
 .projectCard {
     margin-bottom: 20px;
 }
 
-.projectCard > img {
+.projectCard>img {
     width: 100%;
     object-fit: cover;
     height: 250px;
 }
-.card-img, .card-img-top {
+
+.card-img,
+.card-img-top {
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
 }
-.card-img, .card-img-bottom, .card-img-top {
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
     flex-shrink: 0;
 
 }
+
 img {
     vertical-align: middle;
     border-style: none;
@@ -61,25 +68,39 @@ img {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
-    
+
 }
 
 .projectCard .card-title {
     font-weight: bold;
-    color:black;
+    color: black;
     text-decoration: underline;
     text-align: center;
 }
+
 .card-title {
     margin-bottom: .75rem;
 
 }
 
-.h5, h5 {
+.h5,
+h5 {
     font-size: 1.25rem;
-    
+
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     line-height: 1.2;
 }
 
@@ -92,12 +113,12 @@ h5 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-family: Montserrat;
-    
+
 }
 
 h6 {
     font-family: Montserrat;
-    color:grey;    
+    color: grey;
 }
 
 
@@ -118,15 +139,17 @@ p {
 
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
-    
+
 }
+
 a.btn-primary {
-    background-color:#F2E8DF;
-    color:#978070;
+    background-color: #F2E8DF;
+    color: #978070;
     font-weight: bold;
     border: 1px solid transparent;
-    
+
 }
+
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -138,12 +161,13 @@ a.btn-primary {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-   
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
 }
+
 a {
     text-decoration: none;
-    
+
 }
 
 
@@ -155,9 +179,10 @@ a {
 
 ol.carousel-indicators li,
 ol.carousel-indicators li.active {
-  border-radius: 100%;
-  
+    border-radius: 100%;
+
 }
+
 img {
     vertical-align: middle;
     border-style: none;
@@ -166,4 +191,3 @@ img {
 .form-group {
     font-family: Haboro Contrast;
 }
-

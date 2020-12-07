@@ -28,6 +28,10 @@
   font-weight: bold;
 }
 
+h3.aboutMe {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 
 /* Border Custom */
 .borderForm {

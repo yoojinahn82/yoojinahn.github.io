@@ -13,7 +13,7 @@
     color: gray;
   }
   .customNav li.nav-item.active a {
-    color: #EAB5B3;
+    color: rgb(68, 72, 102);
   }
   
   .customNav li.nav-item.active a:hover{
@@ -28,9 +28,16 @@
   }
   
 
-  /* Form Group  */
+/* Border Custom */
+  .borderForm {
+    border: solid 2px rgb(68, 72, 102);;
+    padding: 50px 80px;
+}
 
-  
+.form-group {
+  font-family: arial;
+  color: rgb(68, 72, 102);;
+}
   
   /* ==== project gallery card section ===*/
   .projectGalleryContainer .btn:focus {

@@ -1,57 +1,238 @@
-
-.customNav > a.navbar-brand > img {
-    height: 150px;
-    width: auto;
-}
-
-.customNav button:focus {
-    outline: none;
-}
-
-.customNav button.navbar-toggler span > i {
-    color: orange;
-    font-size: 30px;
-}
-
-.customNav ul.navbar-nav li.nav-item {
-    margin-left: 100px;
-}
-
-.customNav ul.navbar-nav li.nav-item > a {
-    color: gray
-}
-
-.customNav ul.navbar-nav li.nav-item.active > a {
-    color: orange;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.customNav ul.navbar-nav li.nav-item > a:hover {
-    color: #34af95;
-    text-decoration: underline;
-    font-weight: bold;
-    transform: scale(1.2);
-}
-
+/* Navbar CSS */
 .customNav {
-    justify-content: space-between;
+    background-color: none;
 }
 
-/* media queries */
-@media (max-width: 576px) {
-    .customNav > a.navbar-brand > img {
-        height: 100px;
-    }
+.customNav li.nav-item.active {
+    color: black;
+    font-size: 14px;
 }
 
-@media (max-width: 992px) {
-    .customNav ul.navbar-nav li.nav-item {
-        margin-left: 10px;
-        margin-top: 20px;
-    }
+.customNav li.nav-item.active a {
+    color: black!important;
+}
 
-    .customNav ul.navbar-nav li.nav-item > a:hover {
-        transform: scale(1)
-    }
+.customNav li.nav-item.active a:hover{
+    color: gold!important;
+}
+
+.customNav li.nav-item a:hover {
+    color: gold!important;
+}
+
+/* Resume Containers, Divs, and decoration */
+div.container-fluid.myResume {
+    padding: 20px;
+    max-width: 1300px;
+}
+
+/* hr.borderLine {
+    border: 0.5px solid black;
+} */
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+div.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a:hover {
+    color: gold!important;
+}
+
+a:link {
+    color: black;
+}  
+
+a:visited {
+    color: black;
+}
+
+div.skillList {
+    display: flex;
+    max-width: fit-content;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block; 
+}
+
+.dotFill {
+    height: 15px;
+    width: 15px;
+    background-color:gold;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+div.technicalSkillsContent {
+    justify-content: space-evenly;
+}
+
+div.skillName {
+    text-align: right;
+}
+
+div.skillCircleBar {
+    text-align: left;
+}
+
+a.btn-dark {
+    background-color: black;
+    color: white;
+}
+
+a.btn-dark a:hover {
+    background-color: gold;
+    color: white;
+}
+
+
+
+/* Typography */
+h1.nameTitle {
+    font-family: Impact;
+    font-display: flex;
+    padding-top: 30px;
+    font-weight: bolder!important;
+    font-size: 36px!important;
+}
+
+
+h2.jobTitle {
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 20px!important;
+}
+
+h3.sectionTitle {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p.bodyText {
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: normal;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+p.infoBodyText {
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+h4.sectionHeader {
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: gold;
+}
+
+h5.sectionSubHeader {
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+li {
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: normal;
+}
+
+h1.contactHeader {
+    text-align: center;
+    padding: 20px;
+    font-family: Impact;
+    font-weight: bolder!important;
+    font-size: 36px!important;
+}
+
+h2.contactSubHeader {
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 20px!important;
+    padding-bottom: 20px;
+}
+
+h5.cardTitle {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+p.cardText {
+    font-family: Helvetica;
+    font-size: 12px;
+    color: white;
+}
+
+h1.portfolioHeader {
+    text-align: center;
+    padding: 30px;
+    font-family: Impact;
+    font-weight: bolder!important;
+    font-size: 60px!important;
+}
+
+/* Resume Image */
+img.responsive.yellowPortrait {
+    border-radius: 50%;
+    max-width: 275px;
+    width: 100%;
+    height: auto;
+}
+
+img.responsive.sunLogo {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+/* Contact CSS */
+div.container.contactForm {
+    padding: 40px;
+}
+
+/* Portfolio CSS */
+div.row.projectCards {
+    padding: 30px;
+}
+
+.card {
+    margin: 30px;
+}
+
+.projectCard > img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+
+div.card-body {
+    background-color: black;
 }

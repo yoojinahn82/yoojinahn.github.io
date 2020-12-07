@@ -171,14 +171,3 @@
 .myResume .progressRow div.progress>div.progress-bar {
     background-color: #EAB5B3;
 }
-
-/* Media Queries */
-@media (max-width:768px) {
-    
-    .myResume {
-        border-width: 0px;
-    }
-
-    .techSkill i.fa-circle {
-        letter-spacing: opx;
-    }

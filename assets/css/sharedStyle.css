@@ -36,7 +36,8 @@ h3.aboutMe {
 /* Border Custom */
 .borderForm {
   border: solid 2px rgb(68, 72, 102);
-  ;
+  padding-top: 30px;
+  
 
 }
 

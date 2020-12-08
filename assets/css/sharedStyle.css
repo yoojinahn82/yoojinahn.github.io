@@ -37,6 +37,7 @@ h3.aboutMe {
 .borderForm {
   border: solid 2px rgb(68, 72, 102);
   padding-top: 30px;
+  padding-bottom: 30px;
   
 
 }

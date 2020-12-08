@@ -1,0 +1,231 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.myResume {
+    border: 2px solid  #E5CDC8;
+    background-color: #E5CDC8;
+    padding: 20px 50px!important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+.topRow {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.topRow img.profileAvata {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* name title section */
+div.nameTitle {
+    padding-left: 50px;
+    font-weight: bold;
+    
+}
+
+div.nameTitle h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(68, 72, 102);
+}
+
+div.nameTitle h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(68, 72, 102);
+}
+
+/* contact info section */
+.contactRow {
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.contactInfo {
+    color: rgb(68, 72, 102);
+}
+
+.contactInfo p {
+    text-transform: uppercase;
+    color: rgb(68, 72, 102);
+    font-size: 12px;
+}
+
+
+.contactInfo span {
+    text-transform: capitalize;
+    color:  rgb(68, 72, 102); 
+}
+
+
+.contactInfo a {
+    color:  rgb(68, 72, 102);
+    text-decoration: underline;
+}
+
+
+.contactInfo div.email a:hover, 
+.socialMediaContact a:hover {
+    color:  rgb(68, 72, 102);
+}
+
+.socialMediaContact i {
+    color:  rgb(68, 72, 102);
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.socialMediaContact a {
+    color:  rgb(68, 72, 102);
+}
+
+
+/* box border */
+.intro, .hobbies, .projects, .experience, .education, .bottomRow {
+    background-color: rgb(248, 230, 222);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* middle row + bottom row */
+
+.middleRow h3, .bottomRow h3 {
+    color: rgb(68, 72, 102);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.middleRow div.divider {
+    border-bottom: 1px solid #34af95;
+    transform: translate(-20px, 0);
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+/* hobbies */
+.hobbies div.row {
+    text-align: center;
+}
+
+.hobbies img {
+    margin-bottom: 10px;
+}
+
+.hobbies p {
+    font-weight: 200;
+}
+
+/* project */
+.projects h5{
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.projects ul {
+    padding-left: 20px; 
+}
+
+.projects li, .experience li {
+    color:  #34af95;
+}
+
+.projects li > p, .experience li > p {
+    color: black;  
+}
+
+/* experience */
+.experience h6 {
+    color: #34af95;
+}
+.experience h5 > span {
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+}
+.experience li > p {
+    margin-bottom: 5px;
+}
+
+.experience hr {
+    height: 0.5px;
+    background-color: lightgray;
+    border-width:0;
+    margin: 20px 0;
+}
+
+/* education */
+.education h5 {
+    color: #34af95;
+    font-weight: bold;
+}
+
+.education p:nth-of-type(2) {
+    color: #34af95;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.education p > i {
+    font-weight: lighter;
+}
+
+/* bottom row */
+.bottomRow {
+    margin: 30px 1px 15px 1px!important;
+}
+
+.bottomRow div.divider {
+    border-bottom: 1px solid #34af95;
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+.softSkill div.divider {
+    transform: translateX(-35px);
+}
+
+.softSkill li {
+    margin-bottom: 20px;
+}
+
+.softSkill ul {
+    padding-left: 20px; 
+}
+
+.techSkill ul {
+    padding-left: 0; 
+}
+
+.techSkill li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.techSkill i.fa-circle {
+    font-size: 10px;
+    letter-spacing: 10px;
+    color: lightgray
+}
+
+.techSkill i.fa-circle.solid {
+    color: #34af95;
+}
+
+.techSkill div.progress {
+    transform: translateY(7px);
+}
+
+.techSkill div.progress > div.progress-bar {
+    background-color: #34af95;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .techSkill div.progress {
+        transform: translateY(-12px)
+    }
